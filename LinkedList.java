@@ -19,6 +19,10 @@ public class Runner {
 		list.insertAtStart(25);
 		list.insertAt(0,55);
 		list.show();
+		System.out.println();
+		list.deleteAt(2);
+		list.show();
+	}
 	}
 
 }
@@ -78,6 +82,25 @@ public class LinkedList
 		}
 		node.next = n.next;
 		n.next = node;
+	}
+	
+	public void deleteAt(int index)
+	{
+		if(index==0)
+		{
+			head = head.next;
+			return;
+		}
+		Node n = head;
+		Node n1 = null;
+		for(int i=0;i<index-1;i++)
+		{
+			n = n.next;
+		}
+		n1 = n.next;
+		n.next = n1.next;
+		//System.out.println("n1 : "+n1.data);
+		n1 =null;
 	}
 	
 	public void show()                                    //to print the list.
