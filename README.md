@@ -9,8 +9,12 @@
   * Push
   * Pop
   * Peek
+  * Size
+  * isEmpty(to check the array is empty or not)
 
 * Stack [Dynamic Array Implementation]
   * Push
   * Pop
   * Peek
+  * Size
+  * isEmpty(to check the array is empty or not)
