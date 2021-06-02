@@ -18,3 +18,9 @@
   * Peek
   * Size
   * isEmpty(to check the array is empty or not)
+
+* Queue [Array Implementation]
+  * Enqueue
+  * Dequeue
+  * Size
+  * isEmpty
