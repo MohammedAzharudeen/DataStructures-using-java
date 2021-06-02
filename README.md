@@ -24,3 +24,4 @@
   * Dequeue
   * Size
   * isEmpty
+  * isFull
