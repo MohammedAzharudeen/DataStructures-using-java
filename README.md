@@ -1,6 +1,6 @@
 # DataStructures-using-java
 
-* Linked
+* Linked List.
   * Insert at start.
   * Insert at end.
   * Insert at position.
