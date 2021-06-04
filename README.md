@@ -4,6 +4,7 @@
   * Insert at start.
   * Insert at end.
   * Insert at position.
+  * Delete at position.
 
 * Stack [Array Implementation]
   * Push
